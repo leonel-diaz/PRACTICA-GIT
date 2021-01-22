@@ -1,1 +1,1 @@
-const {propertyName} = objectToDestruct
+let leonel = document.getElementById("hola mundo");
