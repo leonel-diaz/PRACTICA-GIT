@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylos.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylos.css" />
     <title>Document</title>
-</head>
-<body>
-    <main>
-        <header>
-            <ul>
-                <li>toner</li>
-                <li>samsung</li>
-                <li>lexmar </li>
-                <li>samsung</li>
-                <li></li>
-            </ul>
-        </header>
-    </main>
-    <section>
-         <div class="clas">
-             <strong><h2>hola mundo</h2></strong>
-         </div>
-         <img src="" alt="">
-         <div><p>esta es la seccion</p></div>
-    </section>
-    <footer>
-        <label for=""></label>
-        <input type="text">
-        <label for="">hola mundo </label>
-       <input type="button">
+  </head>
+  <body>
+    <div class="container-principal">
+      <section class="input">
+        <input type="text" id="texto-numero" value="0" onclick="mostrar()" />
+      </section>
 
-    </footer>
-</body>
+      <div class="container-grid">
+        <button type="button" id="c" value="c" >C</button>
+        <button type="button" id="no" value="no">+</button>
+        <button type="button" id="divicion" value="/">/</button>
+        <button type="button" id="multiplicacion" value="*">X</button>
+        <button type="button" id="7" value="7" onclick="getNumber(7)">7</button>
+        <button type="button" id="8" value="8" onclick="getNumber(8)">8</button>
+        <button type="button" id="9" value="9">9</button>
+        <button type="button" id="resta" value="-">-</button>
+        <button type="button" id="4" value="4">4</button>
+        <button type="button" id="5" value="5">5</button>
+        <button type="button" id="6" value="6">6</button>
+        <button type="button" id="suma" value="+" onclick="" >+</button>
+        <button type="button" id="1" value="1">1</button>
+        <button type="button" id="2" value="2">2</button>
+        <button type="button" id="3" value="3">3</button>
+        <button type="button" class="igual" id="igual" value="=">=</button>
+        <button type="button" class="cero" id="0" value="0">0</button>
+        <button type="button" class="punto" id="punto" value=".">.</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+
 </html>

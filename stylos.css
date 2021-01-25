@@ -1,9 +1,53 @@
 *{
-    background: red;
+    padding: 0;
+    margin: 0;
+
 }
-header{
-    background-color: rgb(233, 77, 50);
+.container-principal{
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(250, 213, 213);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: rgb(245, 226, 226);
+}
+section input{
+    margin-top: 20px;
+    width: 86%;
+    height: 50px;
+    border-radius: 10px;
+    
 }
 section{
-    background: rgb(0, 0, 0);
+    margin-bottom:15px ;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+    grid-template-rows: repeat(5,50px);
+    grid-gap: 10px;
+    margin-left: 21px;
+}
+.container-grid button{
+    border-radius: 5px;
+    background: rgb(252, 195, 195);
+    cursor: pointer;
+}
+.container-grid button:hover{
+   background: rgb(243, 132, 113);
+}
+.container-grid .cero{
+    width: 170px;
+}
+
+.container-grid .punto{
+    
+   /* position: relative; */
+    margin-left: 90px;
+    width: 80px;
+}
+.container-grid .igual{
+    height: 110px;
 }
