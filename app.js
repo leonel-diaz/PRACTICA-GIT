@@ -33,3 +33,10 @@ let punto =d.getElementById("punto");
  function getNumber(n1) {
     d.getElementById("texto-numero").value=n1*n1;
  }
+
+
+ function hola(h1,h2) {
+     console.log(h1,h2);
+
+ }
+   

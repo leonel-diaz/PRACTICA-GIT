@@ -3,6 +3,9 @@
     margin: 0;
 
 }
+body{
+    background: #4444;
+}
 .container-principal{
     width: 400px;
     height: 400px;
