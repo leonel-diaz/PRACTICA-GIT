@@ -3,7 +3,9 @@
 }
 header{
     background-color: rgb(79, 184, 105);
+    margin:30px;
+    padding: 15px;
 }
 section{
-    background: rgb(0, 0, 0);
+    background: rgb(145, 78, 78);
 }
