@@ -39,4 +39,21 @@ let punto =d.getElementById("punto");
      console.log(h1,h2);
 
  }
+
+ class persona{
+
+   constructor(nombre,edad){
+      this.nombre=nombre;
+      this.edad=edad;
+
+   }
+
+   saludar() {
+      console.log(`hola ${this.nombre} tu edad es ${this.edad}`);
+   }
+ }
+
+ const myperona = new persona("leonel","26");
+
+ console.log(myperona.saludar());
    
